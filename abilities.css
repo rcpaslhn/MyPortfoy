@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(230, 25, 25);
+    overflow-x:hidden ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li{
+    list-style-type: none;
+}
+.box{
+    width: 450px;
+    border-radius: 50% ;
+    overflow: hidden;
+}
+.items ul li a {
+    color:  #F2613F;
+    font-size: 20px;
+}
+.items ul li a:hover{
+    
+    color: red;
+    
+    transition: ease-out .5s;
+    
+}
+
+.contaiiner{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.skills h2{
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+
+
+}
+
+.progress-bar{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    
+   
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+margin-top: -15px;
+margin-right:-20px ;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.html{
+    background-color: #e91e63;
+    width: 0%;
+    animation: html 1s linear forwards;
+}
+.css{
+    background-color: #cddc39;
+    width: 0%;
+    animation: css 1s linear forwards;
+}
+.java-script{
+    background-color: #00bcd4;
+    width: 0%;
+    animation: java-script 1s linear forwards;
+}
+.phyton{
+    width: 0%;
+    background-color: #ffeb3b;
+    animation: phyton 1s linear forwards;
+}
+.react{
+    width: 0%;
+    background-color: #9c27b0;
+    animation: react 1s linear forwards;
+}
+
+.html span{
+    border: 1px solid #e91e63;
+}
+.css span{
+    border: 1px solid #cddc39;
+}
+.java-script span{
+    border: 1px solid #00bcd4;
+}
+.react span{
+    border: 1px solid #9c27b0;
+}
+.phyton span{
+    border: 1px solid #ffeb3b;
+}
+
+@keyframes html{
+    100%{
+        width:85% ;
+    }
+}
+@keyframes css{
+    100%{
+        width:73% ;
+    }
+}
+@keyframes java-script{
+    100%{
+        width:50% ;
+    }
+}
+@keyframes phyton{
+    100%{
+        width: 29% ;
+    }
+}
+@keyframes react{
+    100%{
+        width:13% ;
+    }
+}
+
